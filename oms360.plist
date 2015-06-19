@@ -24,6 +24,8 @@
 				<string>software</string>
 				<key>title</key>
 				<string>中农伙伴订单系统</string>
+				<key>Localization native development region<key>
+				<string>China<string>
 			</dict>
 		</dict>
 	</array>
