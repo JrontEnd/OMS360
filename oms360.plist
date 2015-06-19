@@ -24,9 +24,9 @@
 				<string>software</string>
 				<key>title</key>
 				<string>中农伙伴订单系统</string>
-				<key>Localization native development region<key>
+				<key>CFBundleLocalizations<key>
 				<string>China<string>
-				<key>Localized resources can be mixed<key>
+				<key>CFBundleAllowedMimxedLocalizations<key>
 				<string>true<string>
 			</dict>
 		</dict>
