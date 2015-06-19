@@ -26,6 +26,8 @@
 				<string>中农伙伴订单系统</string>
 				<key>Localization native development region<key>
 				<string>China<string>
+				<key>Localized resources can be mixed<key>
+				<string>true<string>
 			</dict>
 		</dict>
 	</array>
