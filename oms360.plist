@@ -17,7 +17,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>CFBundleDevelopmentRegion</key>
-        		<string>English</string>
+        		<string>China</string>
     			<key>CFBundleLocalizations</key>
     			<true/>
 				<key>bundle-identifier</key>
