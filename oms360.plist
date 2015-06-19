@@ -24,12 +24,12 @@
 				<string>software</string>
 				<key>title</key>
 				<string>中农伙伴订单系统</string>
-				<key>CFBundleLocalizations<key>
-				<string>China<string>
-				<key>CFBundleAllowedMimxedLocalizations<key>
-				<string>true<string>
 			</dict>
 		</dict>
 	</array>
+	<key>CFBundleLocalizations<key>
+	<string>China<string>
+	<key>CFBundleAllowedMimxedLocalizations<key>
+	<true/>
 </dict>
 </plist>
