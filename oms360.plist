@@ -27,5 +27,9 @@
 			</dict>
 		</dict>
 	</array>
+	<key>CFBundleLocalizations<key>
+	<string>China<string>
+	<key>CFBundleAllowedMimxedLocalizations<key>
+	<true/>
 </dict>
 </plist>
