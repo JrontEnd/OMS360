@@ -16,6 +16,10 @@
 			</array>
 			<key>metadata</key>
 			<dict>
+				<key>CFBundleDevelopmentRegion</key>
+        		<string>English</string>
+    			<key>CFBundleLocalizations</key>
+    			<true/>
 				<key>bundle-identifier</key>
 				<string>com.eteng.oms360</string>
 				<key>bundle-version</key>
@@ -27,9 +31,5 @@
 			</dict>
 		</dict>
 	</array>
-	<key>CFBundleLocalizations<key>
-	<string>China<string>
-	<key>CFBundleAllowedMimxedLocalizations<key>
-	<true/>
 </dict>
 </plist>
