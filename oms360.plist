@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://ecpapp.oss-cn-beijing.aliyuncs.com/oms/current/oms_beta.ipa</string>
+					<string>https://jrontend.github.io/OMS360/oms360.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
