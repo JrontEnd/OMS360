@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://jrontend.github.io/OMS360/oms360.ipa</string>
+					<string>https://jrontend.github.io/OMS360/xcxk.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.eteng.oms360</string>
+				<string>com.eteng.VIS</string>
 				<key>bundle-version</key>
-				<string>0.1.2</string>
+				<string>0.1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>中农伙伴订单系统</string>
+				<string>乡村销客</string>
 			</dict>
 		</dict>
 	</array>
