@@ -1,1 +1,31 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://vis-apps.oss-cn-qingdao.aliyuncs.com/VISIOST%2F%E5%86%85%E7%BD%91%EF%BC%8D%E4%B9%A1%E6%9D%91%E9%94%80%E5%AE%A2.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.eteng.VISTEST</string>
+				<key>bundle-version</key>
+				<string>0.2.7</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>内网－乡村销客</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
