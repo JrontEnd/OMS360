@@ -2,19 +2,33 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimun-scale=1,maximun-scale=1,user-scalable=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 	<title>ios下载</title>
-  <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/common.css">
 </head>
-<body >
+<body>
 	<div class="logo">
-    <a href="">
-      <img src="img/logo.png" alt="">
-      <p>点击图标下载乡村销客IOS客户端</p>
-    </a>
-  </div>
-  <div class="box">
+        <a href="itms-services://?action=download-manifest&url=https://jrontend.github.io/OMS360/VISTEST.plist">
+          <img src="img/logo.png" alt="">
+          <p>点击图标下载乡村销客IOS客户端</p>
+        </a>
+    </div>
+    <div class="box">
     如果系统弹出“未受信任的企业级开发者”提示。请在设备中点击【设置】->【通用】->【描述文件】（【设置】->【通用】->【设备管理】），找到应用名字点击进入，点击蓝色字体信任，在弹出窗口点击信任，然后再次进入乡村销客点击IOS下载按钮并安装即可。
-  </div>
+    </div>
+    <div class="tips">
+        <img src="img/arrow-1.png" />
+        <strong>请点击右上角, 选择<br/>【在浏览器中打开】以便下载</strong>
+    </div>
 </body>
 </html>
+<script>
+//验证是否为微信浏览器
+(function(){
+    var ua = navigator.userAgent.toLowerCase(),
+        tipsLayer = document.querySelector(".tips");
+        if(/micromessenger/.test(ua)){
+            tipsLayer.style.display = "block";
+        }
+})();
+</script>

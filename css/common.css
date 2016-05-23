@@ -15,6 +15,9 @@ ul, ol, li, a, dl, dt, dd {
 	padding: 0;
 	text-decoration: none;
 }
+body {
+    position :relative;
+}
 .logo {
   text-align: center;
   padding: 80px 0;
@@ -39,4 +42,25 @@ ul, ol, li, a, dl, dt, dd {
   line-height: 26px;
   text-indent: 2em;
   background: rgba(255,255,255,0.1);
+}
+.tips {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background: rgba(0,0,0,.8);
+  font-size: 24px;
+  color: #fff;
+}
+.tips img {
+    display: block;
+    float: right;
+}
+.tips strong {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
 }
