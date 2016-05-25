@@ -16,6 +16,7 @@ ul, ol, li, a, dl, dt, dd {
 }
 body {
     position :relative;
+    overflow: hidden;
 }
 .logo {
   text-align: center;
@@ -43,15 +44,15 @@ body {
   background: rgba(255,255,255,0.1);
 }
 .tips {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
-  width: inherit;
-  height: inherit;
+  width: 100%;
+  height: 100%;
   background: rgba(0,0,0,.8);
   font-size: 24px;
   color: #fff;
+  z-index: 2;
 }
 .tips img {
     display: block;
