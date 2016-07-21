@@ -27,7 +27,7 @@
 (function(){
     var ua = navigator.userAgent.toLowerCase(),
         tipsLayer = document.querySelector(".tips");
-        if(/micromessenger/.test(ua)){
+        if(ua.match(/MicroMessenger/i) == 'micromessenger'){
             tipsLayer.style.display = "block";
         }
 })();
