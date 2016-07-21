@@ -44,6 +44,7 @@ body {
   background: rgba(255,255,255,0.1);
 }
 .tips {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -55,11 +56,9 @@ body {
   z-index: 2;
 }
 .tips img {
-    display: block;
     float: right;
 }
 .tips strong {
-    display: block;
     margin: 0 auto;
     text-align: center;
     clear: both;
